@@ -3,6 +3,9 @@ import "./App.css";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const whatsappNumber = "9113674869";
+  const defaultWhatsappMessage = "Hi Murthy, I need a website to be built. Can we have a talk?";
+  const whatsappLink = `https://wa.me/91${whatsappNumber}?text=${encodeURIComponent(defaultWhatsappMessage)}`;
 
   const closeMenu = () => setMenuOpen(false);
 
@@ -297,6 +300,18 @@ function App() {
           <small>© {new Date().getFullYear()} Murthy KLG</small>
         </div>
       </footer>
+
+      <a
+        className="whatsapp-float"
+        href={whatsappLink}
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Chat on WhatsApp with Murthy KLG"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M20.52 3.49A11.82 11.82 0 0 0 12.1 0C5.53 0 .12 5.4.12 12.05c0 2.12.56 4.2 1.62 6.02L0 24l6.08-1.59a11.94 11.94 0 0 0 5.99 1.9h.02c6.57 0 11.9-5.4 11.9-12.03.02-3.2-1.26-6.22-3.47-8.79Zm-8.42 18.45h-.02a9.87 9.87 0 0 1-5.03-1.38l-.36-.22-3.6.94 1-3.5-.24-.37A9.82 9.82 0 0 1 2.22 12c0-5.46 4.45-9.9 9.94-9.9a9.8 9.8 0 0 1 6.98 2.89 9.88 9.88 0 0 1 2.9 7.03c0 5.45-4.45 9.9-9.94 9.9Zm5.44-7.4c-.3-.15-1.78-.88-2.06-.98-.27-.1-.47-.15-.67.15-.2.3-.77.98-.95 1.18-.17.2-.35.22-.65.08-.3-.15-1.26-.46-2.4-1.46-.89-.79-1.49-1.76-1.67-2.06-.17-.3-.02-.47.13-.62.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.52-.08-.15-.67-1.63-.92-2.24-.24-.58-.49-.5-.68-.5h-.58c-.2 0-.52.07-.8.38-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.48.71.3 1.26.48 1.7.62.72.22 1.38.19 1.9.11.58-.09 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.13-.27-.2-.57-.35Z" />
+        </svg>
+      </a>
     </main>
   );
 }
