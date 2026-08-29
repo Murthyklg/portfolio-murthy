@@ -37,7 +37,7 @@ function App() {
           </a>
           <a
             className="nav-cta"
-            href="mailto:klgmurthy4797@gmail.com"
+            href="mailto:webdevmurthy@gmail.com"
             onClick={closeMenu}
           >
             Start a project <span>↗</span>
@@ -158,7 +158,7 @@ function App() {
                 <p>Brand website and ITSM · Seat manufacturing</p>
               </div>
               <a
-                href="mailto:klgmurthy4797@gmail.com?subject=TS%20Interseats%20case%20study"
+                href="mailto:webdevmurthy@gmail.com?subject=TS%20Interseats%20case%20study"
                 aria-label="View TS Interseats project"
               >
                 ↗
@@ -272,7 +272,7 @@ function App() {
             cloud infrastructure, automated delivery and secure DevSecOps
             practices.
           </p>
-          <a className="text-link" href="mailto:klgmurthy4797@gmail.com">
+          <a className="text-link" href="mailto:webdevmurthy@gmail.com">
             Let’s make something useful <span>↗</span>
           </a>
         </div>
@@ -291,8 +291,8 @@ function App() {
         </div>
         <div className="footer-right">
           <p>Have a project in mind?</p>
-          <a href="mailto:klgmurthy4797@gmail.com">
-            klgmurthy4797@gmail.com <span>↗</span>
+          <a href="mailto:webdevmurthy@gmail.com">
+            webdevmurthy@gmail.com <span>↗</span>
           </a>
           <small>© {new Date().getFullYear()} Murthy KLG</small>
         </div>
