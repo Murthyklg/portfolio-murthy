@@ -161,7 +161,7 @@ function App() {
                 <p>Brand website and ITSM · Seat manufacturing</p>
               </div>
               <a
-                href="mailto:webdevmurthy@gmail.com?subject=TS%20Interseats%20case%20study"
+                href="https://tsiswebsite.vercel.app/"
                 aria-label="View TS Interseats project"
               >
                 ↗
@@ -213,7 +213,7 @@ function App() {
                 <p>Property platform · Real estate</p>
               </div>
               <a
-                href="https://batuka91.vercel.app"
+                href="https://batuka-properties.vercel.app/"
                 aria-label="View Batuka Properties project"
               >
                 ↗
