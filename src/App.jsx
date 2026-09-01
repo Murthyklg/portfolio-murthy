@@ -146,28 +146,50 @@ function App() {
           </p>
         </div>
         <div className="project-grid">
+          <a
+                href="https://tsisin.vercel.app/"
+                aria-label="View TS Interseats project"
+              >
           <article className="project project-orange">
-            <div className="project-art art-seats">
+
+            <a
+                href="https://tsisin.vercel.app/"
+                aria-label="View TS Interseats project"
+              >
+            <div className="project-art art-seats"> <a
+                href="https://tsisin.vercel.app/"
+                aria-label="View TS Interseats project"
+              >
               <span className="art-word">TSISIN</span>
               <span className="art-stamp">
                 BUILT FOR
                 <br />
                 THE JOURNEY
               </span>
-            </div>
+           </a></div>
             <div className="project-meta">
               <div>
                 <h2>TS Interseats India</h2>
                 <p>Brand website and ITSM · Seat manufacturing</p>
               </div>
               <a
-                href="https://tsiswebsite.vercel.app/"
+                href="https://tsisin.vercel.app/"
                 aria-label="View TS Interseats project"
               >
                 ↗
               </a>
-            </div>
-          </article>
+            </div> 
+
+</a>
+
+
+          </article></a>
+
+  <a
+                href="https://www.topin.co.in"
+                aria-label="View Topin Technologies project"
+              >
+
           <article className="project project-blue">
             <div className="project-art art-tech">
               <span className="tech-orbit"></span>
@@ -193,6 +215,12 @@ function App() {
               </a>
             </div>
           </article>
+
+</a>
+ <a
+                href="https://batuka-properties.vercel.app/"
+                aria-label="View Batuka Properties project"
+              >
           <article className="project project-yellow">
             <div className="project-art art-property">
               <span className="property-house">⌂</span>
@@ -220,6 +248,7 @@ function App() {
               </a>
             </div>
           </article>
+          </a>
         </div>
       </section>
 
