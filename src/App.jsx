@@ -115,24 +115,30 @@ function App() {
           role="list"
           aria-label="Murthy KLG clients"
         >
+        <a href="https://tsisin.vercel.app/" aria-label="View TS Interseats project">
           <div className="client-item" role="listitem">
             <span className="client-index">01</span>
             <strong>TS Interseats</strong>
             <small>India Pvt Ltd · Seat manufacturing</small>
             <i>↗</i>
           </div>
+        </a>
+        <a href="https://www.topin.co.in"  aria-label="View Topin Technologies project">
           <div className="client-item" role="listitem">
             <span className="client-index">02</span>
             <strong>Topin</strong>
             <small>Technologies · Cybersecurity</small>
             <i>↗</i>
           </div>
+          </a>
+          <a href="https://batuka-properties.vercel.app/"  aria-label="View Batuka Properties project">
           <div className="client-item" role="listitem">
             <span className="client-index">03</span>
             <strong>Batuka</strong>
             <small>Properties · Real estate</small>
             <i>↗</i>
           </div>
+          </a>
         </div>
       </section>
 

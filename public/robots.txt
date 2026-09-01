@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://murthyklg.com/sitemap.xml
+Sitemap: https://murthyklg.in/sitemap.xml
+Host: murthyklg.in
